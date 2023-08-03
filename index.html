@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section class="container">
+        <section class="header">
+            <div class="input-search">
+                <input type="text" placeholder="Type a city's name">
+            </div>
+            <div class="btn-search">
+                <a href="#"><i class='bx bx-search'></i></a>
+            </div>
+        </section>
+
+        <section class="body">
+            <div class="image">
+                <img src="/img/clear.png" alt="Weather Description" class="weather-img">
+            </div>
+            <div class="temperature">
+                <h1 class="temp"></h1>
+                <p class="city"></p>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="humidity">
+                <div class="img-humidity">
+                    <img src="./img/humidity.png" alt="">
+                </div>
+                <div>
+                    <p class="humidity-rate"></p>
+                    <p class="sub">Humidity</p>
+                </div>
+            </div>
+            <div class="thermal">                                
+                <div class="thermal-icon">
+                    <i class='bx bxs-thermometer'></i>
+                </div>
+                <div>
+                    <p class="wind-speed"></p>
+                    <p class="sub">Thermal sensation</p>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
